@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*导航栏*/
+.csq0{
+    left: 0;
+    right: 0;
+}
+.csq1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 600px;
+    overflow: hidden;
+    background-color: rgb(214, 146, 0);
+    opacity:0.8;
+    position: fixed;
+    top: 0;
+    width: 920px;
+}
+.csq1 li {
+    float: left;
+}
+.csq1 li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.csq1 li a:hover:not(.active) {
+    background-color: rgb(245, 211, 137);
+}
+.csq1 li a.active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 197, 128);
+}
+.csq1a{
+    float: right;
+}
+
+/*浏览区*/
+/*总体边框*/
+.csq2a{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    margin: 60px 15px 15px 15px;
+}
+
+/*用户栏*/
+.csq3a{
+    width: 13%;
+    height: 1330px;
+    float: left;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: dashed none;
+    background-color: rgb(221, 178, 123);
+    margin: 15px 0px 15px 20px;
+    display: flex;
+    flex-direction: column;
+}
+/*用户信息*/
+.csq3b ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.csq3b li{
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+.csq3c{
+    margin-left: 50px;
+}
+
+/*留言板*/
+.csq4a{
+    width: 87%;
+    height: 1300px;
+    border-color: rgb(0, 0, 0);
+    border-style: dashed none;
+    border-width: 1px;
+    float: right;
+    background-color: rgb(238, 213, 180);
+    margin: 15px 20px 15px 0px;
+    display: flex;
+    padding: 15px 30px;
+    flex-direction: column;
+}
+
+/*发言区*/
+/*总体边框*/
+.csq5a{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    margin: 15px;
+}
+
+/*用户栏*/
+.csq6a{
+    width: 13%;
+    height: 250px;
+    float: left;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: dashed none;
+    background-color: rgb(221, 178, 123);
+    margin: 15px 0px 15px 20px;
+    display: flex;
+}
+
+/*留言板*/
+.csq7a{
+    width: 87%;
+    height: 250px;
+    border-color: rgb(0, 0, 0);
+    border-style: dashed none;
+    border-width: 1px;
+    float: right;
+    background-color: rgb(238, 213, 180);
+    margin: 15px 20px 15px 0px;
+    display: flex;
+}
+
+/*输入框*/
+.csq7b{
+    margin: 20px auto;
+}
+.csq7c{
+    display: block;
+    width: 900px;
+    height: 160px;
+    background-color:rgb(238, 213, 180) ;
+}
+
+/*提交按钮*/
+.csq7d{
+    display: block;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background:linear-gradient(120deg,#3498db,#8e44ad,#3498db);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+.csq7d:hover{
+    background-position: right;
+}
+
+/*输出框文字*/
+ul {
+    padding: 5px 100px;
+    position: relative;
+    word-break: break-all;
+}
+
+/*奇数输出样式*/
+.a {
+    border-color: rgb(0, 0, 0);
+    border-style: dashed none;
+    border-width: 1px;
+    color: rgb(0, 0, 0);
+    background: rgb(238, 213, 180);
+} 
+/*偶数输出样式*/
+.b {
+    border-color: rgb(0, 0, 0);
+    border-style: dashed none;
+    border-width: 1px;
+    color: rgb(0, 0, 0);
+    background: rgb(238, 213, 180);
+}
+.csq7f {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    background: yellow;
+    color: #fff;
+} 
+#list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font: 25px/40px "宋体";
+}
+
+/*其他装饰*/
+
+/*页面颜色*/
+.csq8{
+    background-color: rgb(223, 219, 194);
+}
